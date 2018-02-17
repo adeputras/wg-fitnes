@@ -954,6 +954,12 @@ img {
     top: auto;
     bottom: -50px;
   }
+  .testimonial-slider .arrow-left{
+    padding-left: 0;
+  }
+  .testimonial-slider .arrow-right{
+    padding-right: 0;
+  }
   .testimonial-slider .slide {
     padding: 0;
   }
