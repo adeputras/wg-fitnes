@@ -1028,7 +1028,7 @@ img {
     display: block;
   }
   .about-logo img {
-    max-width: 200px;
+    max-width: 150px;
   }
   #section-about .row>div {
     flex: none;
