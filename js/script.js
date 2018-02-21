@@ -54,10 +54,10 @@
     //Section Parallax Image
     function parallax() {
       var offset = $('#section-parallax').offset();
-      var imgPlx = $('.parallax-image').height() / 2 * 3;
+      var imgPlx = $('.parallax-image').height();
       var scrollPosition = $(window).scrollTop() - offset.top + imgPlx;
 
-      $('.parallax-image').css('top', (0 - (scrollPosition * .25)) + 'px')
+      $('.parallax-image').css('top', (0 - (scrollPosition * .3)) + 'px')
     }
     $(window).bind('scroll', function (e) {
       parallax();
@@ -107,8 +107,8 @@
       responsive: [{
         breakpoint: 992,
         settings: {
-          //dots: true,
-          //arrows: false,
+          // dots: true,
+          // arrows: false,
           adaptiveHeight: true
         }
       }]
